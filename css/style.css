@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #0f515d, #128687);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #efe8d6 !important;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f515d, #128687);
+  text-align: center;
+}
+
+.tagline {
+  color: #b7a86f;
+}
+.btn-order {
+  background-color: #f4c430;
+  color: #000;
+  margin-right: 10px;
+}
+.btn-order:hover {
+  background-color: #e5b800;
+  color: #000;
+}
+.btn-view {
+  background-color: #128687;
+  color: #fff;
+}
+.btn-view:hover {
+  background-color: #0f515d;
+  color: #fff;
+}
+section {
+  min-height: 100vh;
+}
+section h1 {
+  color: #0f515d;
+}
+section h1 span {
+  color: #b7a86f;
+}
+
+section.about {
+  display: flex;
+  align-items: center;
+}
+
+.about-card {
+  background-color: #128687;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(223, 216, 216, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.about-card:hover {
+  background-color: #0f515d;
+}
+
+section.services {
+  background-color: #f9f6ef;
+}
+.service-card {
+  background: #0e8c8a;
+  color: #ffffff;
+  padding: 22px 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  background: #0c7d7b;
+}
+
+.service-card i {
+  color: #dcc78c;
+  outline-color: #fff;
+}
