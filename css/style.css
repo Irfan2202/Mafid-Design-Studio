@@ -44,6 +44,9 @@ body {
 }
 
 /* GLOBAL SECTION */
+section {
+  min-height: 100vh;
+}
 section h1 {
   color: #0f515d;
 }
